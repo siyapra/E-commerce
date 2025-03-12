@@ -1,5 +1,6 @@
 import { Link } from 'react-router-dom'
 import { useState } from 'react'
+import './Navbar.css'
 
 const Navbar = ({ onSearch, cartItemCount }) => {
   const [searchQuery, setSearchQuery] = useState('');
@@ -17,7 +18,7 @@ const Navbar = ({ onSearch, cartItemCount }) => {
         <div className='header py-2'>
           <div className='grid'>
             <Link to="/" className='Link'>
-              <h1 className='brand'>E-commerce</h1>
+              <img src='golden-logo-template-free-png.webp' alt='home'/>
             </Link>
             <div className='formContainer'>
               <form className='search'>
