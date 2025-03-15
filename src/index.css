@@ -455,6 +455,8 @@ img {
   -moz-transform: scaleX(-1);
   -ms-transform: scaleX(-1);
   -o-transform: scaleX(-1);
+  width: 20px;
+    margin-left: 5px;
 }
 
 @media (max-width: 895px) {
