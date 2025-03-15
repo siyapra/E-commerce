@@ -67,7 +67,7 @@
 
 @media (max-width: 600px) {
     .related .grid {
-        grid-template-columns: 1fr;
+        /* grid-template-columns: 1fr; */
         gap: 30px;
     }
 }
